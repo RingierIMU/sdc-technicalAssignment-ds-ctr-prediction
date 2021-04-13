@@ -3,12 +3,12 @@
 An assignment for practical and production machine learning.
 
 --------------------------
-#### directions for use
+#### Directions for use
 
-- fork this repo
-- version control your progress in your personal repository.
-- add your documentation to the docs directory
-- when you are ready to let us see, add our github users to your repository
+- Fork this repo.
+- Version control your progress in your personal repository.
+- Add your documentation to the docs directory.
+- When you are ready, let us see and add our github user to your repository.
 
 -----------------------
 
@@ -18,42 +18,48 @@ Marketplaces are a vital part of the free commerce eco-system. Historically, the
 
 Buyers visit our site in search of products and services. Sellers advertise their products and services. And when the buyer finds something they like, they click on the advertisement and show interest. This is known as a click through.
 
-Click Through Rate (CTR) Prediction is a huge powerful tool for marketplaces, as a means to deliver even more value for sellers on our platform.
+Click Through Rate (CTR) Prediction is a powerful tool for marketplaces, as a means to deliver even more value for sellers on our platform.
 
 ## Problem Statement
 
 Build a Click Trough Rate (CTR) Prediction ML service.
 
+You are provided with data representing a client site's products database. You are required to design a proof of concept, for a ML service where models predictions must be provided to client sites through an API.
+
 ### Tasks
 
-- Design document with flow charts detailing production system.
-- Training script (prepare, train, evaluate model)
-- Serving script (serving model on localhost)
-- Exploratory Analysis of model performance
-- Documenting the Data Science Project [CRISP DM process](https://www.datascience-pm.com/crisp-dm-2/)
-
-### Scope
-
-- Your models predictions must be provided to client sites through an API
-- The provided data represents a client sites products database.
-- Feel free to make assumptions, as long as you document them.
-- Python code is expected.
+- Simple Explaination of production system with flow diagrams.
+- Training script (prepare, train, evaluate model).
+- Serving script (serving model on localhost).
+- Exploratory Analysis of model performance.
 
 ### Additional Tips
 
+- Light explainations in the form of README are encouraged.
+- Feel free to make assumptions, as long as you document them.
+- Python code is expected.
 - Do not persist your model. Your training script should create a model given provided data.
-- Make your work portable. We may test it on Linux or windows.
+- Make your work portable. We may test it on Linux or Windows.
 - More points are given for successfully modelling and explaining your model.
-- All documentation could be conbined in to a single markdown file, similar to this README markdown.
-
 
 ## Data
 
-You have been provided with a train dataset & a test dataset. Where `train` represents ~ 10 days of data where records are subsampled according different strategies based on clicks. Where `test` is 1 day of data with clicks omitted. Use this to test your model and validating ideas.
+You are provided with a single train dataset. Which you can use as required to satisfy the project requirements.
 
 #### Get Data
 
-Down the data from the link provided in email.
+A link or set of links will be provided which will allow you to download the dataset.
+
+Options to download data:
+1. Navigate to link in your browser and download the contents into a file.
+2. Use `wget` utility to download the contents.
+
+For ease of use, a `make` command is provided here in `Makefile` which can streamline this process.
+Run the following command on a PC or VM with `wget` installed:
+
+```
+    make download-data file=<dataset/to/download> url=<url/to/dataset>
+```
 
 #### Features
 
