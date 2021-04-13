@@ -53,7 +53,18 @@ You have been provided with a train dataset & a test dataset. Where `train` repr
 
 #### Get Data
 
-Down the data from the link provided in email.
+A link or set of links will be provided which will allow you to download the dataset.
+
+Suggested methods:
+- Navigate to link in your browser and download the contents in to a file.
+- use `wget` utility to download the contents.
+
+For ease of use, a `make` command is provided here in `Makefile` which can streamline this process.
+Run the following command on a PC or VM with `wget` installed:
+
+```
+    make download-data file=<dataset/to/download> url=<url/to/dataset>
+```
 
 #### Features
 
