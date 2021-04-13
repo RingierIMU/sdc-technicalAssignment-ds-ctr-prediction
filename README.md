@@ -24,40 +24,35 @@ Click Through Rate (CTR) Prediction is a huge powerful tool for marketplaces, as
 
 Build a Click Trough Rate (CTR) Prediction ML service.
 
+You are provided with data representing a client site's products database. You are required to design a proof of concept, for a ML service where models predictions must be provided to client sites through an API.
+
 ### Tasks
 
-- Design document with flow charts detailing production system.
+- Simple Explaination of production system with flow diagrams.
 - Training script (prepare, train, evaluate model)
 - Serving script (serving model on localhost)
 - Exploratory Analysis of model performance
-- Documenting the Data Science Project [CRISP DM process](https://www.datascience-pm.com/crisp-dm-2/)
-
-### Scope
-
-- Your models predictions must be provided to client sites through an API
-- The provided data represents a client sites products database.
-- Feel free to make assumptions, as long as you document them.
-- Python code is expected.
 
 ### Additional Tips
 
+- Light explainations in the form of README are encouraged.
+- Feel free to make assumptions, as long as you document them.
+- Python code is expected.
 - Do not persist your model. Your training script should create a model given provided data.
 - Make your work portable. We may test it on Linux or windows.
 - More points are given for successfully modelling and explaining your model.
-- All documentation could be conbined in to a single markdown file, similar to this README markdown.
-
 
 ## Data
 
-You have been provided with a train dataset & a test dataset. Where `train` represents ~ 10 days of data where records are subsampled according different strategies based on clicks. Where `test` is 1 day of data with clicks omitted. Use this to test your model and validating ideas.
+You are provided with a single train dataset. Which you can use as required to satisfy the project requirements.
 
 #### Get Data
 
 A link or set of links will be provided which will allow you to download the dataset.
 
-Suggested methods:
-- Navigate to link in your browser and download the contents in to a file.
-- use `wget` utility to download the contents.
+Options to download data:
+1. Navigate to link in your browser and download the contents in to a file.
+2. use `wget` utility to download the contents.
 
 For ease of use, a `make` command is provided here in `Makefile` which can streamline this process.
 Run the following command on a PC or VM with `wget` installed:
