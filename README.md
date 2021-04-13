@@ -3,12 +3,12 @@
 An assignment for practical and production machine learning.
 
 --------------------------
-#### directions for use
+#### Directions for use
 
-- fork this repo
-- version control your progress in your personal repository.
-- add your documentation to the docs directory
-- when you are ready to let us see, add our github users to your repository
+- Fork this repo.
+- Version control your progress in your personal repository.
+- Add your documentation to the docs directory.
+- When you are ready, let us see and add our github user to your repository.
 
 -----------------------
 
@@ -18,7 +18,7 @@ Marketplaces are a vital part of the free commerce eco-system. Historically, the
 
 Buyers visit our site in search of products and services. Sellers advertise their products and services. And when the buyer finds something they like, they click on the advertisement and show interest. This is known as a click through.
 
-Click Through Rate (CTR) Prediction is a huge powerful tool for marketplaces, as a means to deliver even more value for sellers on our platform.
+Click Through Rate (CTR) Prediction is a powerful tool for marketplaces, as a means to deliver even more value for sellers on our platform.
 
 ## Problem Statement
 
@@ -29,9 +29,9 @@ You are provided with data representing a client site's products database. You a
 ### Tasks
 
 - Simple Explaination of production system with flow diagrams.
-- Training script (prepare, train, evaluate model)
-- Serving script (serving model on localhost)
-- Exploratory Analysis of model performance
+- Training script (prepare, train, evaluate model).
+- Serving script (serving model on localhost).
+- Exploratory Analysis of model performance.
 
 ### Additional Tips
 
@@ -39,7 +39,7 @@ You are provided with data representing a client site's products database. You a
 - Feel free to make assumptions, as long as you document them.
 - Python code is expected.
 - Do not persist your model. Your training script should create a model given provided data.
-- Make your work portable. We may test it on Linux or windows.
+- Make your work portable. We may test it on Linux or Windows.
 - More points are given for successfully modelling and explaining your model.
 
 ## Data
@@ -51,8 +51,8 @@ You are provided with a single train dataset. Which you can use as required to s
 A link or set of links will be provided which will allow you to download the dataset.
 
 Options to download data:
-1. Navigate to link in your browser and download the contents in to a file.
-2. use `wget` utility to download the contents.
+1. Navigate to link in your browser and download the contents into a file.
+2. Use `wget` utility to download the contents.
 
 For ease of use, a `make` command is provided here in `Makefile` which can streamline this process.
 Run the following command on a PC or VM with `wget` installed:
